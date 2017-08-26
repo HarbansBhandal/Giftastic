@@ -1,0 +1,54 @@
+body {
+     background-color: #cc99ff;
+     font-family: arial, sans-serif;
+	font-size: 100%;
+}
+
+button,
+   div,
+   form,
+   input {
+     margin: 10px;
+ }
+
+/* Title */
+ #title {
+      font-size: 40px;
+      text-align: center;
+      color: #292C87;
+}
+
+/* Each sport button */
+.sport{
+     padding: 15px 32px;
+     font-weight: bold;
+     color:  #ffffff;
+     background-color: #cc0044;
+     text-align: center;
+     display: inline-block;
+     font-size: 16px;
+}
+
+/* Add a sport Label */
+#sport-form label{
+     font-size: 24px;
+}
+
+/* Form */
+#sport-input {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+/*Add Sport Button */
+#add-sport {
+     padding: 10px 20px;
+     font-weight: bold;
+     color: #ffffff;
+     background-color: #292C87;
+     text-align: center;
+     display: inline-block;
+     font-size: 16px;
+}
