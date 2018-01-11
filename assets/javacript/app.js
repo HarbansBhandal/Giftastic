@@ -27,7 +27,7 @@ function displaySportInfo() {
      
      var sport = $(this).attr("data-name");
 
-     var api = "http://api.giphy.com/v1/gifs/search?";
+     var api = "https://api.giphy.com/v1/gifs/search?";
      var apiKey = "&api_key=dc6zaTOxFJmzC";
      var apiLimit = "&limit=10";
      var query = "q=" + sport;
